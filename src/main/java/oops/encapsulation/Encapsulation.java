@@ -6,54 +6,11 @@ that is we called
 bind data with his behaviour into single unit called encapsulation
 */
 
+import domain.User;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
-
-class User{
- private Integer id;
- private String name;
- private Double salary;
-
- public User(Integer id, String name, Double salary){
-     this.id = id;
-     this.name = name;
-     this.salary = salary;
- }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public Double getSalary() {
-        return salary;
-    }
-
-    public void setSalary(Double salary) {
-        this.salary = salary;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", salary=" + salary +
-                '}';
-    }
-}
 
 public class Encapsulation {
     public static void main(String[] args) {
