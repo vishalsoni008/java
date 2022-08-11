@@ -43,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Abstraction">
+  <component name="RunManager" selected="Application.ArrayListDemo">
     <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.abstraction.Abstraction" />
       <module name="java" />
@@ -57,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.encapsulation.Encapsulation" />
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection_framework.list.ArrayListDemo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.encapsulation.*" />
+          <option name="PATTERN" value="collection_framework.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.inheritance.Inheritance" />
+    <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.encapsulation.Encapsulation" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.inheritance.*" />
+          <option name="PATTERN" value="oops.encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.Abstraction" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.MethodOverRidden" />
         <item itemvalue="Application.MethodOverLoading" />
-        <item itemvalue="Application.Inheritance" />
       </list>
     </recent_temporary>
   </component>
