@@ -43,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListDemo">
+  <component name="RunManager" selected="Application.LinkedListDemo">
     <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.abstraction.Abstraction" />
       <module name="java" />
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverLoading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.overloading.MethodOverLoading" />
+    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection_framework.list.LinkedListDemo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.polymorphism.overloading.*" />
+          <option name="PATTERN" value="collection_framework.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.Abstraction" />
         <item itemvalue="Application.Encapsulation" />
         <item itemvalue="Application.MethodOverRidden" />
-        <item itemvalue="Application.MethodOverLoading" />
       </list>
     </recent_temporary>
   </component>
