@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da287bf3-2ad8-409e-8968-502748e82262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/vishal/Desktop/Java/java"
   }
-}</component>
-  <component name="RunManager" selected="Application.VectorDemo">
+}]]></component>
+  <component name="RunManager" selected="Application.Comparable">
     <configuration name="Abstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.abstraction.Abstraction" />
       <module name="java" />
@@ -70,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Encapsulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.encapsulation.Encapsulation" />
+    <configuration name="Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable.Comparable" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.encapsulation.*" />
+          <option name="PATTERN" value="comparable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Comparable" />
         <item itemvalue="Application.VectorDemo" />
         <item itemvalue="Application.LinkedListDemo" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.Abstraction" />
-        <item itemvalue="Application.Encapsulation" />
       </list>
     </recent_temporary>
   </component>
