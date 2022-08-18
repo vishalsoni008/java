@@ -1,6 +1,6 @@
 package domain;
 
-public class User {
+public class User implements Comparable<User> {
     private Integer id;
     private String name;
     private Double salary;
@@ -42,5 +42,16 @@ public class User {
                 ", name='" + name + '\'' +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public int compareTo(User user) {
+//        if (this.name.compareTo(user.name) != 0)
+//            return this.name.compareTo(user.name);
+
+        if(this.salary.compareTo(user.salary) != 0)
+            return this.salary.compareTo(user.salary);
+
+        return -1;
     }
 }
