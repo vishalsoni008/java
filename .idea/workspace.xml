@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da287bf3-2ad8-409e-8968-502748e82262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +45,13 @@
     &quot;last_opened_file_path&quot;: &quot;/home/vishal/Desktop/Java/java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NavigableSetDemo">
-    <configuration name="HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection_framework.set.hastset.HashSet" />
+  <component name="RunManager" selected="Application.HashMapDemo">
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection_framework.map.hashmap.HashMapDemo" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection_framework.set.hastset.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedHashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection_framework.set.linkedhashset.LinkedHashSetDemo" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection_framework.set.linkedhashset.*" />
+          <option name="PATTERN" value="collection_framework.map.hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +85,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringDemo" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection_framework.set.treeset.TreeSetDemo" />
       <module name="java" />
@@ -112,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapDemo" />
+        <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.NavigableSetDemo" />
         <item itemvalue="Application.SortedSetDemo" />
         <item itemvalue="Application.TreeSetDemo" />
-        <item itemvalue="Application.LinkedHashSetDemo" />
-        <item itemvalue="Application.HashSet" />
       </list>
     </recent_temporary>
   </component>
