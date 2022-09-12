@@ -1,5 +1,7 @@
 package domain;
 
+import java.util.Objects;
+
 public class Student {
     private Integer id;
     private String name;
@@ -42,5 +44,19 @@ public class Student {
                 ", name='" + name + '\'' +
                 ", rollNumber=" + rollNumber +
                 '}';
+    }
+ //need to do this beacuse when we pass key a class in map so it will check with hashcode
+    // by default map using key not duplicate so each time hash is diffrent so work efficintly way.
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return Objects.equals(id, student.id) && Objects.equals(name, student.name) && Objects.equals(rollNumber, student.rollNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, rollNumber);
     }
 }
