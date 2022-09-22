@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da287bf3-2ad8-409e-8968-502748e82262" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparable/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparable/Comparable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/vishal/Desktop/Java/java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/vishal/Desktop/Java/spring-jpa"
   }
-}</component>
-  <component name="RunManager" selected="Application.genric.custom.Demo">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genric.predefine.Demo" />
+}]]></component>
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.search.BinarySearch" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="genric.predefine.*" />
+          <option name="PATTERN" value="algo.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection_framework.map.hashmap.HashMapDemo" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.sorting.BubbleSort" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection_framework.map.hashmap.*" />
+          <option name="PATTERN" value="algo.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection_framework.set.hastset.HashSet" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algo.search.LinearSearch" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection_framework.set.hastset.*" />
+          <option name="PATTERN" value="algo.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.Student" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,26 +112,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="genric.custom.domain.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="genric.custom.domain.Demo" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="genric.custom.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.Student" />
         <item itemvalue="Application.genric.custom.Demo" />
-        <item itemvalue="Application.genric.custom.domain.Demo" />
-        <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.HashSet" />
-        <item itemvalue="Application.HashMapDemo" />
       </list>
     </recent_temporary>
   </component>

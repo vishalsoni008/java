@@ -1,5 +1,6 @@
 package comparable;
 
+import demo.Student;
 import domain.User;
 
 import java.util.ArrayList;
@@ -9,6 +10,8 @@ import java.util.List;
 
 public class Comparable {
     public static void main(String[] args) {
+
+      //  Student student = new Student();
 
         List<User> users = new ArrayList<>();
 
