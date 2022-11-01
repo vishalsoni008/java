@@ -11,8 +11,8 @@ public class Intro {
 
         String name = "Vishal";
 
-        Stream.of(name)
-                .map(p -> p.toUpperCase())
-                .forEach(System.out::println);
+        Stream.of(name) // start up point.
+                .map(p -> p.toUpperCase())  // intermidiate operation
+                .forEach(System.out::println); // terminal operation.
     }
 }
