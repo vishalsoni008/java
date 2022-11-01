@@ -2,6 +2,7 @@ package collection_framework.set.linkedhashset;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+
 // this is store of preserve order.
 public class LinkedHashSetDemo {
     public static void main(String[] args) {

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
-       // List list = new ArrayList();  //lit without genric
+        // List list = new ArrayList();  //lit without genric
 
         List<Integer> list = new ArrayList<>(); // list with genric
 

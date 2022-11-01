@@ -45,7 +45,8 @@ public class Student {
                 ", rollNumber=" + rollNumber +
                 '}';
     }
- //need to do this beacuse when we pass key a class in map so it will check with hashcode
+
+    //need to do this beacuse when we pass key a class in map so it will check with hashcode
     // by default map using key not duplicate so each time hash is diffrent so work efficintly way.
     @Override
     public boolean equals(Object o) {

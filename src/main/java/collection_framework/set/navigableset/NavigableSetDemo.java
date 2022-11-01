@@ -2,7 +2,6 @@ package collection_framework.set.navigableset;
 
 import java.util.NavigableSet;
 import java.util.Set;
-import java.util.TreeSet;
 import java.util.concurrent.ConcurrentSkipListSet;
 
 public class NavigableSetDemo {
@@ -16,15 +15,15 @@ public class NavigableSetDemo {
         set.add(55);
         set.add(22);
 
-        System.out.println("original set is "+set);
+        System.out.println("original set is " + set);
 
         Set<Integer> set1 = set.descendingSet();
-        System.out.println("decending set is "+set1);
+        System.out.println("decending set is " + set1);
 
-        System.out.println("poll last element "+set.pollLast());
+        System.out.println("poll last element " + set.pollLast());
 
-        System.out.println("poll first element "+set.pollFirst());
+        System.out.println("poll first element " + set.pollFirst());
 
-        System.out.println("original set is "+set);
+        System.out.println("original set is " + set);
     }
 }

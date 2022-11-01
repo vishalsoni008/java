@@ -5,7 +5,7 @@ public class User implements Comparable<User> {
     private String name;
     private Double salary;
 
-    public User(Integer id, String name, Double salary){
+    public User(Integer id, String name, Double salary) {
         this.id = id;
         this.name = name;
         this.salary = salary;
@@ -49,7 +49,7 @@ public class User implements Comparable<User> {
 //        if (this.name.compareTo(user.name) != 0)
 //            return this.name.compareTo(user.name);
 
-        if(this.salary.compareTo(user.salary) != 0)
+        if (this.salary.compareTo(user.salary) != 0)
             return this.salary.compareTo(user.salary);
 
         return -1;
