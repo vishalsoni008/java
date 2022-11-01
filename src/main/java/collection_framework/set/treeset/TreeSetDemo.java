@@ -2,6 +2,7 @@ package collection_framework.set.treeset;
 
 import java.util.Set;
 import java.util.TreeSet;
+
 // taking data in sorted form.
 public class TreeSetDemo {
     public static void main(String[] args) {

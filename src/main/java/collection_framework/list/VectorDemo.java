@@ -7,11 +7,11 @@ public class VectorDemo {
     public static void main(String[] args) {
         List<Integer> list = new Vector<>();
 
-        for (int i=0;i<5;i++){
+        for (int i = 0; i < 5; i++) {
             list.add(i);
         }
 
-        for (int number : list){
+        for (int number : list) {
             System.out.println(number);
         }
 

@@ -2,29 +2,30 @@ package demo;
 
 public class Student {
     int i;
-    private Student(){
+
+    private Student() {
     }
 
-    public Student(int i){
+    public Student(int i) {
         this.i = i;
     }
 
-    public void nonStatic(){
-        System.out.println("this is non static method");
-        staticMethod();
-    }
-
-    public static void staticMethod(){
+    public static void staticMethod() {
         System.out.println("this a static method");
         Student student = new Student();
         //student.nonStatic();
     }
 
     public static void main(String[] args) {
-      //  staticMethod();
+        //  staticMethod();
         Student student = new Student();
         student.nonStatic();
 
-        Object o= new Object();
+        Object o = new Object();
+    }
+
+    public void nonStatic() {
+        System.out.println("this is non static method");
+        staticMethod();
     }
 }
