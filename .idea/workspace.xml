@@ -48,6 +48,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.DateIntro">
+    <configuration name="Assesment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Assesment" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DateIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="date_api.DateIntro" />
       <module name="java" />
@@ -64,16 +77,9 @@
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Demo" />
       <module name="java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Intro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_api.basic.Intro" />
-      <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_api.basic.*" />
+          <option name="PATTERN" value="keywords.abstract_keyword.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,7 +111,6 @@
       <list>
         <item itemvalue="Application.DateIntro" />
         <item itemvalue="Application.stream_api.map.Intro" />
-        <item itemvalue="Application.Intro" />
         <item itemvalue="Application.Sachin" />
         <item itemvalue="Application.Demo" />
       </list>
