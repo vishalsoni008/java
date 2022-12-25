@@ -1,6 +1,6 @@
 package interview.one_to_ten;
 
-public class ReverseStringOne {
+public class ReverseString1 {
     public static void main(String[] args) {
         String name = "vishal";
 
