@@ -1,9 +1,21 @@
 package domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class User implements Comparable<User> {
     private Integer id;
     private String name;
     private Double salary;
+
+    List<String> list = new ArrayList<>();
+
+    public User(Integer id, String name, Double salary, List<String> list) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+        this.list = list;
+    }
 
     public User(Integer id, String name, Double salary) {
         this.id = id;
@@ -33,6 +45,14 @@ public class User implements Comparable<User> {
 
     public void setSalary(Double salary) {
         this.salary = salary;
+    }
+
+    public List<String> getList() {
+        return list;
+    }
+
+    public void setList(List<String> list) {
+        this.list = list;
     }
 
     @Override
