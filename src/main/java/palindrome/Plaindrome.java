@@ -8,7 +8,7 @@ public class Plaindrome {
         int temp = value;
         int rev = 0;
 
-        while (value != 0) {
+        while (value > 0) {
             int rem = value % 10;
             rev = rev * 10 + rem;
             value /= 10;
