@@ -66,12 +66,6 @@ public class User implements Comparable<User> {
 
     @Override
     public int compareTo(User user) {
-//        if (this.name.compareTo(user.name) != 0)
-//            return this.name.compareTo(user.name);
-
-        if (this.salary.compareTo(user.salary) != 0)
-            return this.salary.compareTo(user.salary);
-
-        return -1;
+        return (int) (this.salary-user.salary);
     }
 }
