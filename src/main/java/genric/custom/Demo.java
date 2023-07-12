@@ -4,11 +4,12 @@ import genric.custom.domain.Laptop;
 
 public class Demo {
     public static void main(String[] args) {
-        Laptop<Integer> laptop = new Laptop();
 
-        laptop.setCompany("msi");
-        laptop.setName("gtx");
+        Laptop<Object> laptop = new Laptop<>("soni");
 
-        System.out.println(laptop);
+        laptop.getData(1);
+
+        System.out.println(laptop.val());
+
     }
 }

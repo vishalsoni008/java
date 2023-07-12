@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da287bf3-2ad8-409e-8968-502748e82262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/CustomCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/comparator/CustomCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/palindrome/Plaindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/palindrome/Plaindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/genric/custom/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genric/custom/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/genric/custom/domain/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/genric/custom/domain/Laptop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.SuperKeyword">
     <configuration name="Comparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="comparable.Comparable" />
       <module name="java" />
@@ -79,19 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="genric.custom.Demo" />
       <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="genric.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plaindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="palindrome.Plaindrome" />
+    <configuration name="SuperKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keywords.SuperKeyword" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="palindrome.*" />
+          <option name="PATTERN" value="keywords.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperKeyword" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Comparator" />
         <item itemvalue="Application.Comparable" />
-        <item itemvalue="Application.Plaindrome" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -137,26 +142,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
