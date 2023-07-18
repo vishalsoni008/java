@@ -35,5 +35,15 @@ public class Test {
     }
      public static void main(String[] args) {
          System.out.println(migratoryBirds(List.of(1,2,3,4,5,4,3,2,1,3,4)));
+
+         int x = 1;
+         int y=1;
+
+         while(x<25){
+             int z = x;
+             x = x+y;
+             y = z;
+         }
+         System.out.println(x);
     }
 }
